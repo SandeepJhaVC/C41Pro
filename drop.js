@@ -9,7 +9,7 @@ class Drop {
     
     }
     display() {
-        ellipse(this.body.x, this.body.y,this.r,this.r);
+        ellipse(this.body.position.x, this.body.position.y,this.r,this.r);
     }
     update() {
         if (this.body.position.y > height) {
